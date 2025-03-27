@@ -1,5 +1,5 @@
 create table governed_wb.wc_ic_fg_item_specs_report_mv (
-    org                            varchar2,
+    org                            varchar2(20 char),
     customer_name                  varchar2(360 char),
     ship_to_customer               varchar2(150 char),
     customer_item_number           varchar2(50 char),
